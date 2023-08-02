@@ -1,35 +1,27 @@
-## Getting Started
+Project Title: Total Stake Counter for Cardano, Polkadot, and Kusama Chains*
 
-Create a project using this example:
+## Description:
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
+Welcome to the Total Stake Counter application! This project aims to empower users with the ability to conveniently track the total stake for three prominent blockchain networks: Cardano, Polkadot, and Kusama. By providing a web-based user interface (UI) and employing relevant APIs, users can easily monitor the total staked value with the Luganodes validator for each of these chains. The application offers seamless options to add or remove chains from the tracking list, ensuring a customizable and personalized experience for every user.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+##Technology Used
 
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+MERN Full Stack.
+Next JS
 
-### Deploy to IPFS
 
-Deploy a copy of your application to IPFS using the following command:
+## Features:
 
-```bash
-yarn deploy
-```
+- *Web-based UI*: The Total Stake Counter is designed as a user-friendly web application, accessible from any device with an internet connection.
 
-## Learn More
+- *Real-time Stake Updates*: The UI displays real-time data, reflecting the latest total stake value for Cardano, Polkadot, and Kusama chains. The application ensures that users are always up-to-date with the latest information.
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+- *Intuitive Chain Management*: The UI provides straightforward options to add or remove chains from the tracking list, granting users full control over their preferred staking networks.
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- *No Web-Scraping*: To maintain data integrity and adhere to best practices, we have sourced the total stake data for each chain directly from official APIs, avoiding any web-scraping from external explorers.
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+- *Responsive Design*: The application's UI has been thoughtfully crafted to adapt seamlessly to different screen sizes and devices, ensuring an optimal viewing experience across desktops, tablets, and mobile phones.
 
-## Join our Discord!
+- *Framework of Choice*: We have built this application using [Framework/Libraries], which offers robustness, performance, and developer-friendly features, making it easier for other developers to contribute or extend the application in the future.
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+- *Version Control*: The entire development process has been organized using Git version control. This enables a streamlined collaboration workflow, keeps track of changes, and facilitates code-sharing among team members.
